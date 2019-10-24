@@ -3,7 +3,7 @@ package com.spartaglobal.RabbitExplosionProject;
 import java.util.Map;
 import java.util.Random;
 
-public class Rabbit implements IRabbit{
+public class Rabbit implements IFemaleRabbit,IMaleRabbit{
     boolean gender;
     int age;
 
@@ -27,4 +27,13 @@ public class Rabbit implements IRabbit{
         this.age=age;
     }
 
+    @Override
+    public boolean isMature() {
+        return false;
+    }
+
+    @Override
+    public boolean maturity() {
+        return false;
+    }
 }

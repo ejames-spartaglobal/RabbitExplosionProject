@@ -12,9 +12,9 @@ public class App
     public static void main( String[] args )
     {
 
+    RabbitBirthManager rabbitBirthManager = new RabbitBirthManager();
+    rabbitBirthManager.initBirth();
 
-    RabbitExplosionTimer rabbitExplosionTimer = new RabbitExplosionTimer();
-    rabbitExplosionTimer.timeTrack();
 
 
     }

@@ -7,7 +7,7 @@ public class RabbitExplosionTimer {
 
     public void timeTrack(){
         Timer timer = new Timer();
-        TimerTask timerTask = new RabbitTimerTask();
+        RabbitTimerTask timerTask = new RabbitTimerTask();
         timer.schedule(timerTask,0,1000);
     }
 
