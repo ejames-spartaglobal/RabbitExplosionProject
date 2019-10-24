@@ -13,7 +13,10 @@ public class App
     {
 
     RabbitBirthManager rabbitBirthManager = new RabbitBirthManager();
-    rabbitBirthManager.initBirth();
+    rabbitBirthManager.addMaleRabbitToPopulation();
+    rabbitBirthManager.addFemaleRabbitToPopulation();
+    rabbitBirthManager.initExistence();
+
 
 
 
